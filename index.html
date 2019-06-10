@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" type="text/css" href="vendor/normalize.css">
+    <link rel="stylesheet" type="text/css" href="vendor/flickity.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
+
+  <body class="board">
+
+    <header>
+      <h1>Rock Paper Scissors</h1>
+    </header>
+
+    <div class="score-board">
+      <div id="user-label" class="label">User</div>
+      <div id="computer-label" class="label">Computer</div>
+      <span id="user-score">0</span>:<span id="computer-score">0</span>
+    </div>
+
+    <div class="result1">
+      <p> Good Luck :)</p>
+    </div>
+  
+    <div class="choices hide ">
+      <div id="r" class="choice player-move" data-move="rock">
+        <img src="https://www.bostonglobe.com/rw/Boston/2011-2020/WebGraphics/Metro/BostonGlobe.com/2018/05/rockpaperscissors/assets/rock--left.png">
+      </div>
+      <div id="p" class="choice player-move" data-move="paper">
+        <img src="https://www.bostonglobe.com/rw/Boston/2011-2020/WebGraphics/Metro/BostonGlobe.com/2018/05/rockpaperscissors/assets/paper--left.png">
+      </div>
+      <div id="s" class="choice player-move" data-move="scissors">
+        <img src="https://www.bostonglobe.com/rw/Boston/2011-2020/WebGraphics/Metro/BostonGlobe.com/2018/05/rockpaperscissors/assets/scissors--left.png">
+      </div>
+    </div>
+    
+    <div id="start">
+      <button id="button" class="button"> Start Game </button>
+    </div>
+      
+    <div class="overlay" id="modal-overlay">
+      <div class="modal" id="modal-one">
+        <a href="#" class="close">x</a>
+        <div class="result">
+          <p> Test </p>
+        </div>
+      </div>
+    </div>
+    
+          <script src="js/script.js"></script>
+  </body>
+</html>
