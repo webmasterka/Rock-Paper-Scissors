@@ -68,9 +68,7 @@ function play() {
 			case 'ss':
 			case 'pp':
 			case 'rr':
-            params.round++;  
-            params.computerScore++;
-            params.userScore++;  
+            params.round++;   
 			params.result1.innerHTML += '<p> YOU TIED! </p>';
             params.progress.push({content: params.round + '. You played ' + convertToWord(params.userChoice) + ' and computer played ' + convertToWord(params.computerChoice) +' (' + params.userScore +':'+ params.computerScore +  ')' + '<p> YOU TIED! </p>'});
 			break;
